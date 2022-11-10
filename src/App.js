@@ -14,7 +14,7 @@ function App() {
       </ul>
       <Button title="Entrar" />
       <Button title="Fechar" />
-      <Button title="Sair" />
+      <Button title="Salvar" />
     </div>
   );
 }
