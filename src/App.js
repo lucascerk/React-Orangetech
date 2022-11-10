@@ -1,6 +1,8 @@
+import Button from "./components/Button";
+
 
 function App() {
-  return <div className="App">
+  return (<div className="App">
       <h1>
         Salve
       </h1>
@@ -10,7 +12,11 @@ function App() {
         <li>tres</li>
         <li>quatro</li>
       </ul>
+      <Button title="Entrar" />
+      <Button title="Fechar" />
+      <Button title="Sair" />
     </div>
+  );
 }
 
 export default App;
